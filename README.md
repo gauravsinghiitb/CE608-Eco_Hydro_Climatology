@@ -1,4 +1,4 @@
-# Climate Variable Trend Analysis (1990–2025)
+# Climate Variable Trend Analysis of Maldives (1990–2025)
 
 This project analyzes long-term spatial and seasonal trends in key climate variables — temperature (2m), precipitation, specific humidity, and relative humidity — using GRIB-format reanalysis data from 1990 to 2025.
 
