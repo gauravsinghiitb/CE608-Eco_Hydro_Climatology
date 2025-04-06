@@ -11,7 +11,8 @@ To extract, process, and visualize the trends of climatic variables across time 
 ## 🗂️ Data Source
 
 - **Dataset**: ERA5 Reanalysis Data
-- **Provider**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu)
+- **Provider for Temperature and Precipitation Data**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
+- - **Provider for Humidity Data**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=download)
 - **Format**: GRIB
 - **Resolution**: ~0.25° x 0.25°
 - **Variables Used**:
@@ -46,18 +47,20 @@ To extract, process, and visualize the trends of climatic variables across time 
   - Extracted time series of the variable.
   - Performed linear regression using `scipy.stats.linregress`.
   - Considered trends statistically significant only if **p-value < 0.05**.
+ 
+---
 
-### 3. **Seasonal Decomposition**
-- Divided the dataset into four seasons:
-  - Winter (DJF)
-  - Spring (MAM)
-  - Summer (JJA)
-  - Fall (SON)
-- Computed seasonal trends separately for each variable.
 
-### 4. **Visualization**
-- Created spatial maps of trends using `matplotlib` and `pcolormesh`.
-- Used appropriate colormaps (`coolwarm`, `BrBG`, etc.) for temperature and precipitation.
+### 3  **Methodology**
+- **Data Preprocessing:** Extraction of relevant variables from GRIB files and conversion to time series.
+- **Temporal Analysis:**
+  - Monthly and yearly aggregation
+  - Trend detection using linear regression and Mann-Kendall test
+  - Seasonal decomposition
+- **Spatial Analysis:**
+  - Latitudinal trend extraction
+  - Trend slope calculation and plotting
+- **Visualization:** All trends were visualized using time series plots, bar graphs, and geospatial contour maps.
 
 ---
 
