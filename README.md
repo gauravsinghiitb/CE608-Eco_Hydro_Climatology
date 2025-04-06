@@ -11,8 +11,8 @@ To extract, process, and visualize the trends of climatic variables across time 
 ## 🗂️ Data Source
 
 - **Dataset**: ERA5 Reanalysis Data
-- **Provider for Temperature and Precipitation Data**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
-- - **Provider for Humidity Data**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=download)
+- **Data Source for Temperature and Precipitation Data**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
+- **Data Source for Humidity Data**: [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=download)
 - **Format**: GRIB
 - **Resolution**: ~0.25° x 0.25°
 - **Variables Used**:
