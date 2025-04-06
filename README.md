@@ -67,9 +67,4 @@ To extract, process, and visualize the trends of climatic variables across time 
 - **Precipitation**: Mixed trends; some regions showing significant drying or wetting patterns.
 - **Humidity**: Variations in specific and relative humidity trends depend on both geography and season.
 
-(Sample plots can be added here using Markdown image embedding if needed.)
-
----
-
-## 📁 Repository Structure
 
